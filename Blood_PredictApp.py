@@ -12,10 +12,6 @@ from sklearn import datasets
 from sklearn.ensemble import ExtraTreesRegressor, RandomForestRegressor
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.linear_model import ElasticNetCV
-from sklearn.model_selection import train_test_split
-from sklearn.pipeline import make_pipeline, make_union
-from tpot.builtins import StackingEstimator
-from tpot.export_utils import set_param_recursive
 from sklearn.linear_model import LogisticRegression
 
 
